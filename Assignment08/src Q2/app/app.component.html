@@ -1,0 +1,4 @@
+<h1>App component</h1>
+<p>Message recevied from child component is : {{msgFromChild}}</p>
+<h2>Child Component rendered below</h2>
+<app-child [messageFromParent]="msgTochild" (TransmitToParent)="msgFromChild=$event"></app-child>
